@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'LRException_Example' do
+  pod 'LRException', :path => '../'
+
+  target 'LRException_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
