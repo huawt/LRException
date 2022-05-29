@@ -1,0 +1,6 @@
+framework module Pods_LRException_Tests {
+  umbrella header "Pods-LRException_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

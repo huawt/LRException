@@ -1,0 +1,16 @@
+PODS:
+  - LRException (0.1.0)
+
+DEPENDENCIES:
+  - LRException (from `../`)
+
+EXTERNAL SOURCES:
+  LRException:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LRException: beb9cc33d445494f0c14642922f0ffed73a80f34
+
+PODFILE CHECKSUM: bb7fcf77ef2e3344b928d415b3090ddb168e5db6
+
+COCOAPODS: 1.11.3

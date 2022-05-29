@@ -9,6 +9,7 @@
 #import "LRViewController.h"
 
 @interface LRViewController ()
+@property (weak, nonatomic) IBOutlet UIButton *crashButton;
 
 @end
 
@@ -18,6 +19,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+- (IBAction)crashButtonAction:(UIButton *)sender {
+    [self performSelector:@selector(aaa)];
 }
 
 - (void)didReceiveMemoryWarning

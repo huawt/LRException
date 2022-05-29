@@ -1,0 +1,794 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13B812981EF7348C01C133DA8EA6F652 /* LRExceptionUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 89341A20D69419C71DAF4CF92D1C9606 /* LRExceptionUtil.m */; };
+		163ABBCA989EE55A80119225B506C376 /* LRException-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB8D1DE391E9270C16BB804527032C6B /* LRException-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D1524A1F683F6EB90CEE34333D4C605 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2E308339A0E9432BDF21766D3ADDE1B0 /* UIAlertController+LRExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A29B1E62746D387DD662E58948C28F /* UIAlertController+LRExtension.m */; };
+		40E922BCB2B6F2D242854F2329A02906 /* LRCommonUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = B5820B72F14900EDC5FE40E8A015D57F /* LRCommonUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41330F53531731FE66831D402ACAB51D /* Pods-LRException_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 537722B68D8F032C63EAB44DA637B083 /* Pods-LRException_Tests-dummy.m */; };
+		50038C336673C9A54B40BB1A97990370 /* Pods-LRException_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 13EC17FC8D13C2352BC4A40D0CC3154E /* Pods-LRException_Example-dummy.m */; };
+		50748475C4128AE11EEF7035FF04F57B /* LRExceptionUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EC91551CCBBE3EE6C4BD0D84982FFDF /* LRExceptionUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57D1E25548EA22FDF0C6253E880D157B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9B2EBD8A5F71E76484ADF3222A2A57D1 /* LRCommonUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B574B83A1A4D4C8F0F91494A80570CC6 /* LRCommonUtils.m */; };
+		A70D6AC4BC5C27C06016688F810ED728 /* LRException-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5402525A131AA3A29BD96A3BDECC6E5A /* LRException-dummy.m */; };
+		A988A0842C5F67A8ABE90A59243B2AC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D1BAE98B241B8D5EE663103991DD4517 /* UIAlertController+LRExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 341CC10033353FA56340C69BB1ECFB6A /* UIAlertController+LRExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E97387290A26D70676EC7B1EFCC3B6C9 /* Pods-LRException_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2C1E8FB9D656A2A4B1335B030129B6F /* Pods-LRException_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0B54CCD998F0DA45FEB93DF803E8CF8 /* Pods-LRException_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4C064B279FBBA340CE0CA4025E4DB29 /* Pods-LRException_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F597932ED74EEBF9C3BD6B3DD2E0ED05 /* LRException.h in Headers */ = {isa = PBXBuildFile; fileRef = 542601303514227D5C6BE269D326F882 /* LRException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6709E1C9E542530BFD1C6A469863E9B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E497F87668EA251862B6FED79DA247F5;
+			remoteInfo = "Pods-LRException_Example";
+		};
+		7D441FECEC8F283C98841BDD72EAEE66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C70D476B8E3FCD18E8AB1EA0E69F58EF;
+			remoteInfo = LRException;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03A73F2EFD5BD4A5A1E351DDE1686BB3 /* Pods-LRException_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LRException_Tests.modulemap"; sourceTree = "<group>"; };
+		04768EC57FECE0B337F0052AC71B7194 /* Pods-LRException_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LRException_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0B246AF0D50D4048EBB63BB0E52376D0 /* LRException.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LRException.modulemap; sourceTree = "<group>"; };
+		13EC17FC8D13C2352BC4A40D0CC3154E /* Pods-LRException_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LRException_Example-dummy.m"; sourceTree = "<group>"; };
+		1F1C6C0A2CBECDF8CB62D10140D25389 /* LRException-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LRException-Info.plist"; sourceTree = "<group>"; };
+		1FDCB8829FE97F69E876AD44D6E65650 /* Pods-LRException_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LRException_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		341CC10033353FA56340C69BB1ECFB6A /* UIAlertController+LRExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertController+LRExtension.h"; path = "LRException/Classes/UIAlertController+LRExtension.h"; sourceTree = "<group>"; };
+		38433E79898A1918221B0B6956945909 /* Pods-LRException_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LRException_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3A15CD9F26C3F81472187F4D699BB5EB /* LRException.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LRException.release.xcconfig; sourceTree = "<group>"; };
+		537722B68D8F032C63EAB44DA637B083 /* Pods-LRException_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LRException_Tests-dummy.m"; sourceTree = "<group>"; };
+		5402525A131AA3A29BD96A3BDECC6E5A /* LRException-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LRException-dummy.m"; sourceTree = "<group>"; };
+		542601303514227D5C6BE269D326F882 /* LRException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LRException.h; path = LRException/Classes/LRException.h; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		78304C33F0B0BF5A4BE19F4960ACCCEB /* Pods-LRException_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LRException_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7BFACC292917A000ED3DC3234A712538 /* Pods-LRException_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LRException_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7EC91551CCBBE3EE6C4BD0D84982FFDF /* LRExceptionUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LRExceptionUtil.h; path = LRException/Classes/LRExceptionUtil.h; sourceTree = "<group>"; };
+		89341A20D69419C71DAF4CF92D1C9606 /* LRExceptionUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LRExceptionUtil.m; path = LRException/Classes/LRExceptionUtil.m; sourceTree = "<group>"; };
+		8F267D0ED92B2F366E0EB95CDD8D5FB6 /* LRException-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LRException-prefix.pch"; sourceTree = "<group>"; };
+		92AC4BEE3410D833BCC8446381F12020 /* Pods-LRException_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LRException_Example.release.xcconfig"; sourceTree = "<group>"; };
+		93412E0D42F574BC52407F064F98834B /* Pods-LRException_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LRException_Example-frameworks.sh"; sourceTree = "<group>"; };
+		967B5392148471B9A774D4F4D9BB0532 /* Pods-LRException_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LRException_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		971A8BB594076AAB489A9B9B3E815A01 /* Pods-LRException_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LRException_Example-Info.plist"; sourceTree = "<group>"; };
+		9AC1FC52ECB5D24CE5021DEBED065B97 /* LRException */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LRException; path = LRException.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5312768ACDC7BDD576BD49B01165B12 /* Pods-LRException_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LRException_Example"; path = Pods_LRException_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0FC235A69BB8C66B5B16A62C0156527 /* Pods-LRException_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LRException_Tests"; path = Pods_LRException_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1C5519EED3DC5E5239A4AF0FEFACC8E /* LRException.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LRException.debug.xcconfig; sourceTree = "<group>"; };
+		B2926F628AA86770C4372F36C0843454 /* LRException.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LRException.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B2C1E8FB9D656A2A4B1335B030129B6F /* Pods-LRException_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LRException_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B4C064B279FBBA340CE0CA4025E4DB29 /* Pods-LRException_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LRException_Example-umbrella.h"; sourceTree = "<group>"; };
+		B574B83A1A4D4C8F0F91494A80570CC6 /* LRCommonUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LRCommonUtils.m; path = LRException/Classes/LRCommonUtils.m; sourceTree = "<group>"; };
+		B5820B72F14900EDC5FE40E8A015D57F /* LRCommonUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LRCommonUtils.h; path = LRException/Classes/LRCommonUtils.h; sourceTree = "<group>"; };
+		C1D47E9FE79AF82CF6152B7B66CEC26B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C49F3E391F11AC6A30F163EC775FB67E /* Pods-LRException_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LRException_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C74D227E6655DB571285884D10EB2DAE /* Pods-LRException_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LRException_Tests-Info.plist"; sourceTree = "<group>"; };
+		D5A29B1E62746D387DD662E58948C28F /* UIAlertController+LRExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertController+LRExtension.m"; path = "LRException/Classes/UIAlertController+LRExtension.m"; sourceTree = "<group>"; };
+		DB8D1DE391E9270C16BB804527032C6B /* LRException-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LRException-umbrella.h"; sourceTree = "<group>"; };
+		EE4CC20FA0ED001E868B46E9467C69FE /* Pods-LRException_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LRException_Example.modulemap"; sourceTree = "<group>"; };
+		FDD16FFB050F11DCDBCC75B978672888 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AC94565EF4CD2D3FEEBCF2F78EB214F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D1524A1F683F6EB90CEE34333D4C605 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DD4A81E2C2B14DD87DD6A11A95B7F65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57D1E25548EA22FDF0C6253E880D157B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C457A5D4325ECFACB46435BF987D7BF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A988A0842C5F67A8ABE90A59243B2AC6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04C3369FC687368CA96527DBD34C440E /* Pods-LRException_Example */ = {
+			isa = PBXGroup;
+			children = (
+				EE4CC20FA0ED001E868B46E9467C69FE /* Pods-LRException_Example.modulemap */,
+				7BFACC292917A000ED3DC3234A712538 /* Pods-LRException_Example-acknowledgements.markdown */,
+				38433E79898A1918221B0B6956945909 /* Pods-LRException_Example-acknowledgements.plist */,
+				13EC17FC8D13C2352BC4A40D0CC3154E /* Pods-LRException_Example-dummy.m */,
+				93412E0D42F574BC52407F064F98834B /* Pods-LRException_Example-frameworks.sh */,
+				971A8BB594076AAB489A9B9B3E815A01 /* Pods-LRException_Example-Info.plist */,
+				B4C064B279FBBA340CE0CA4025E4DB29 /* Pods-LRException_Example-umbrella.h */,
+				78304C33F0B0BF5A4BE19F4960ACCCEB /* Pods-LRException_Example.debug.xcconfig */,
+				92AC4BEE3410D833BCC8446381F12020 /* Pods-LRException_Example.release.xcconfig */,
+			);
+			name = "Pods-LRException_Example";
+			path = "Target Support Files/Pods-LRException_Example";
+			sourceTree = "<group>";
+		};
+		06838B42D713B67C3331F8BE49641F6E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C1D47E9FE79AF82CF6152B7B66CEC26B /* LICENSE */,
+				B2926F628AA86770C4372F36C0843454 /* LRException.podspec */,
+				FDD16FFB050F11DCDBCC75B978672888 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		19846FCBFCBC3FE0B82A64EFCE74D50E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				04C3369FC687368CA96527DBD34C440E /* Pods-LRException_Example */,
+				366BE4537B35CB472FDA7C1BC16E723C /* Pods-LRException_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		366BE4537B35CB472FDA7C1BC16E723C /* Pods-LRException_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				03A73F2EFD5BD4A5A1E351DDE1686BB3 /* Pods-LRException_Tests.modulemap */,
+				1FDCB8829FE97F69E876AD44D6E65650 /* Pods-LRException_Tests-acknowledgements.markdown */,
+				C49F3E391F11AC6A30F163EC775FB67E /* Pods-LRException_Tests-acknowledgements.plist */,
+				537722B68D8F032C63EAB44DA637B083 /* Pods-LRException_Tests-dummy.m */,
+				C74D227E6655DB571285884D10EB2DAE /* Pods-LRException_Tests-Info.plist */,
+				B2C1E8FB9D656A2A4B1335B030129B6F /* Pods-LRException_Tests-umbrella.h */,
+				967B5392148471B9A774D4F4D9BB0532 /* Pods-LRException_Tests.debug.xcconfig */,
+				04768EC57FECE0B337F0052AC71B7194 /* Pods-LRException_Tests.release.xcconfig */,
+			);
+			name = "Pods-LRException_Tests";
+			path = "Target Support Files/Pods-LRException_Tests";
+			sourceTree = "<group>";
+		};
+		4CE33EAD87CD1769798EE292E65E9CE6 /* LRException */ = {
+			isa = PBXGroup;
+			children = (
+				B5820B72F14900EDC5FE40E8A015D57F /* LRCommonUtils.h */,
+				B574B83A1A4D4C8F0F91494A80570CC6 /* LRCommonUtils.m */,
+				542601303514227D5C6BE269D326F882 /* LRException.h */,
+				7EC91551CCBBE3EE6C4BD0D84982FFDF /* LRExceptionUtil.h */,
+				89341A20D69419C71DAF4CF92D1C9606 /* LRExceptionUtil.m */,
+				341CC10033353FA56340C69BB1ECFB6A /* UIAlertController+LRExtension.h */,
+				D5A29B1E62746D387DD662E58948C28F /* UIAlertController+LRExtension.m */,
+				06838B42D713B67C3331F8BE49641F6E /* Pod */,
+				D963D8BDB6E1ECA79F4ED6D4B7A6373D /* Support Files */,
+			);
+			name = LRException;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		85731DD5297BD7B4711A9799702C62F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AC1FC52ECB5D24CE5021DEBED065B97 /* LRException */,
+				A5312768ACDC7BDD576BD49B01165B12 /* Pods-LRException_Example */,
+				B0FC235A69BB8C66B5B16A62C0156527 /* Pods-LRException_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADD9E31106D71556BB4093CFD9A6C0EC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4CE33EAD87CD1769798EE292E65E9CE6 /* LRException */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				ADD9E31106D71556BB4093CFD9A6C0EC /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				85731DD5297BD7B4711A9799702C62F8 /* Products */,
+				19846FCBFCBC3FE0B82A64EFCE74D50E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D963D8BDB6E1ECA79F4ED6D4B7A6373D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B246AF0D50D4048EBB63BB0E52376D0 /* LRException.modulemap */,
+				5402525A131AA3A29BD96A3BDECC6E5A /* LRException-dummy.m */,
+				1F1C6C0A2CBECDF8CB62D10140D25389 /* LRException-Info.plist */,
+				8F267D0ED92B2F366E0EB95CDD8D5FB6 /* LRException-prefix.pch */,
+				DB8D1DE391E9270C16BB804527032C6B /* LRException-umbrella.h */,
+				B1C5519EED3DC5E5239A4AF0FEFACC8E /* LRException.debug.xcconfig */,
+				3A15CD9F26C3F81472187F4D699BB5EB /* LRException.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LRException";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1AA055D214BCDE96A0BC2458478B0FE7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0B54CCD998F0DA45FEB93DF803E8CF8 /* Pods-LRException_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DA993F519FA003DD4DAFBF4F949896B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40E922BCB2B6F2D242854F2329A02906 /* LRCommonUtils.h in Headers */,
+				F597932ED74EEBF9C3BD6B3DD2E0ED05 /* LRException.h in Headers */,
+				163ABBCA989EE55A80119225B506C376 /* LRException-umbrella.h in Headers */,
+				50748475C4128AE11EEF7035FF04F57B /* LRExceptionUtil.h in Headers */,
+				D1BAE98B241B8D5EE663103991DD4517 /* UIAlertController+LRExtension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A63FE9DBE094BD3F9A685AE9CFC64A7D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E97387290A26D70676EC7B1EFCC3B6C9 /* Pods-LRException_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7C8F3F9332E66375CDB9386A3DE651C5 /* Pods-LRException_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C541CE297937471E5DFFAB93B5392566 /* Build configuration list for PBXNativeTarget "Pods-LRException_Tests" */;
+			buildPhases = (
+				A63FE9DBE094BD3F9A685AE9CFC64A7D /* Headers */,
+				4298D2D0C43C676ED4A6EA04C44EC623 /* Sources */,
+				5DD4A81E2C2B14DD87DD6A11A95B7F65 /* Frameworks */,
+				EAB8658492344C2226C44B0ED864D2BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74844ED97C974703FA372D638B8EC622 /* PBXTargetDependency */,
+			);
+			name = "Pods-LRException_Tests";
+			productName = Pods_LRException_Tests;
+			productReference = B0FC235A69BB8C66B5B16A62C0156527 /* Pods-LRException_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		C70D476B8E3FCD18E8AB1EA0E69F58EF /* LRException */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B132D7822E61BAC908EF16E496B45846 /* Build configuration list for PBXNativeTarget "LRException" */;
+			buildPhases = (
+				5DA993F519FA003DD4DAFBF4F949896B /* Headers */,
+				E2D3C473313CE648B1B7FEA5A581BE78 /* Sources */,
+				4AC94565EF4CD2D3FEEBCF2F78EB214F /* Frameworks */,
+				8FBB4703BDAAA64416A91976819499FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LRException;
+			productName = LRException;
+			productReference = 9AC1FC52ECB5D24CE5021DEBED065B97 /* LRException */;
+			productType = "com.apple.product-type.framework";
+		};
+		E497F87668EA251862B6FED79DA247F5 /* Pods-LRException_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B9B0D196B10C0C92C33761F29DCBD0A /* Build configuration list for PBXNativeTarget "Pods-LRException_Example" */;
+			buildPhases = (
+				1AA055D214BCDE96A0BC2458478B0FE7 /* Headers */,
+				8FB356032830881FDE19882F6069B68B /* Sources */,
+				C457A5D4325ECFACB46435BF987D7BF9 /* Frameworks */,
+				12EE905B30B6BA922455D9E5F7FA7A35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44E4B4010F8B4967CD93082050172C48 /* PBXTargetDependency */,
+			);
+			name = "Pods-LRException_Example";
+			productName = Pods_LRException_Example;
+			productReference = A5312768ACDC7BDD576BD49B01165B12 /* Pods-LRException_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 85731DD5297BD7B4711A9799702C62F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C70D476B8E3FCD18E8AB1EA0E69F58EF /* LRException */,
+				E497F87668EA251862B6FED79DA247F5 /* Pods-LRException_Example */,
+				7C8F3F9332E66375CDB9386A3DE651C5 /* Pods-LRException_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12EE905B30B6BA922455D9E5F7FA7A35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FBB4703BDAAA64416A91976819499FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAB8658492344C2226C44B0ED864D2BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4298D2D0C43C676ED4A6EA04C44EC623 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41330F53531731FE66831D402ACAB51D /* Pods-LRException_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FB356032830881FDE19882F6069B68B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50038C336673C9A54B40BB1A97990370 /* Pods-LRException_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2D3C473313CE648B1B7FEA5A581BE78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B2EBD8A5F71E76484ADF3222A2A57D1 /* LRCommonUtils.m in Sources */,
+				A70D6AC4BC5C27C06016688F810ED728 /* LRException-dummy.m in Sources */,
+				13B812981EF7348C01C133DA8EA6F652 /* LRExceptionUtil.m in Sources */,
+				2E308339A0E9432BDF21766D3ADDE1B0 /* UIAlertController+LRExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44E4B4010F8B4967CD93082050172C48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LRException;
+			target = C70D476B8E3FCD18E8AB1EA0E69F58EF /* LRException */;
+			targetProxy = 7D441FECEC8F283C98841BDD72EAEE66 /* PBXContainerItemProxy */;
+		};
+		74844ED97C974703FA372D638B8EC622 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LRException_Example";
+			target = E497F87668EA251862B6FED79DA247F5 /* Pods-LRException_Example */;
+			targetProxy = 6709E1C9E542530BFD1C6A469863E9B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03F9972656B2CFFE3B42ADC6FE17C7DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1C5519EED3DC5E5239A4AF0FEFACC8E /* LRException.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LRException/LRException-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LRException/LRException-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LRException/LRException.modulemap";
+				PRODUCT_MODULE_NAME = LRException;
+				PRODUCT_NAME = LRException;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		19B95673A06169ED4DCE42281D9C7882 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78304C33F0B0BF5A4BE19F4960ACCCEB /* Pods-LRException_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LRException_Example/Pods-LRException_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LRException_Example/Pods-LRException_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3CCD7EB8EEBFABD5B72D29B55D6BEBAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92AC4BEE3410D833BCC8446381F12020 /* Pods-LRException_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LRException_Example/Pods-LRException_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LRException_Example/Pods-LRException_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		531EF2149517001B13A21EC6600E453D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A15CD9F26C3F81472187F4D699BB5EB /* LRException.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LRException/LRException-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LRException/LRException-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LRException/LRException.modulemap";
+				PRODUCT_MODULE_NAME = LRException;
+				PRODUCT_NAME = LRException;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		74CB30CC4FD2AEEE2CEC7EAE156BD281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04768EC57FECE0B337F0052AC71B7194 /* Pods-LRException_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LRException_Tests/Pods-LRException_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LRException_Tests/Pods-LRException_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C1F27F1F422D15AB95E61FE10A584BAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 967B5392148471B9A774D4F4D9BB0532 /* Pods-LRException_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LRException_Tests/Pods-LRException_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LRException_Tests/Pods-LRException_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B9B0D196B10C0C92C33761F29DCBD0A /* Build configuration list for PBXNativeTarget "Pods-LRException_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B95673A06169ED4DCE42281D9C7882 /* Debug */,
+				3CCD7EB8EEBFABD5B72D29B55D6BEBAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B132D7822E61BAC908EF16E496B45846 /* Build configuration list for PBXNativeTarget "LRException" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03F9972656B2CFFE3B42ADC6FE17C7DE /* Debug */,
+				531EF2149517001B13A21EC6600E453D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C541CE297937471E5DFFAB93B5392566 /* Build configuration list for PBXNativeTarget "Pods-LRException_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1F27F1F422D15AB95E61FE10A584BAE /* Debug */,
+				74CB30CC4FD2AEEE2CEC7EAE156BD281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
