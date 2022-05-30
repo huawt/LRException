@@ -425,7 +425,7 @@ void AssertionHandler(const char *condition, const char *obj_name, id obj, const
 #if (TARGET_IPHONE_SIMULATOR)
     NSString *hardware = @"Simulator";
 #else
-    NSString *hardware = [GRCommonUtils getHardware];
+    NSString *hardware = [LRCommonUtils getHardware];
 #endif
     // Note: this is different from [Utils getUserAgent] because we use the version and OS from the saved crash report
     NSString *userAgentValue =
